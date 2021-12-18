@@ -3,7 +3,7 @@
 
 ## How to run Keycloak (needs docker and docker-compose)
 - open .docker folder and run `docker-compose up`
-- After runs, open [localhost:8080/auth]() for configurations (credentials in docker-compose file)
+- After runs, open [http://localhost:8080/auth]() for configurations (credentials in docker-compose file)
 - Create a Realm named Example
 - Create two clients: 
   - `nest-api` with Access Type = confidential and ROOT Url = [http://localhost:8082]() and Service Accounts Enabled = true
